@@ -1,0 +1,27 @@
+body{
+    background-image: url('http://www.alivem.net/wp-content/uploads/2014/12/angerme-350x278.png');
+    /* background-color: #04A6EB; */
+    /* color: #FDffff; */
+    width: 500px;
+    margin: auto;
+}
+main{
+    margin: 10%;
+    padding: 30px;
+    border:double black;
+    background-color: #FFFFFF;
+}
+
+button{
+    padding: 5px 20px;
+    /* background-color: #337AB7; */
+    /* border-color: #2E6da4; */
+    background-color: #04A6EB;
+    border-color: #04A6EB;
+    color: #FDffff;
+    border-style: none;
+}
+input{
+    height: 20px;
+}
+
