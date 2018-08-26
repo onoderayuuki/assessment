@@ -38,7 +38,7 @@
 
         const paragraph = document.createElement('p');
         const result = assessment(userName);
-        paragraph.innerText = result;
+        paragraph.innerHTML = result;
         resultDivided.appendChild(paragraph);
 
         //ツイートエリア 
@@ -57,7 +57,7 @@
     }
 
     const answers = [
-        '{userName}の今日の推しメンは和田彩花です。あやちょ～～～ブラボー！ラッキースポット：美術館',
+        '{userName}の今日の推しメンは和田彩花です。<br>あやちょ～～～ブラボー！ラッキースポット：美術館',
         '{userName}の今日の推しメンは福田花音です。肩書のないわたしでも好きになってくれるかな？ラッキースポット：ディズニーランド',
         '{userName}の今日の推しメンは中西香菜です。ヤッタルチャンになるんやで💪ラッキースポット：映画館',
         '{userName}の今日の推しメンは竹内朱莉です。たーーーけーーーー！ラッキーフード：おでん',
